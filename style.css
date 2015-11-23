@@ -162,7 +162,7 @@ background-color:#d8c4b4;
 font-family: 'Roboto', sans-serif;
 position:relative;
 }
-.titleheadvlog
+.titleheadvid
 {
 z-index:6;
 height:205px;
@@ -187,12 +187,12 @@ margin: auto;
 z-index:6;
 height:205px;
 width:100%;
-background-image:url('img/apiemus.png');
+background-image:url('img/apiemane.png');
 background-position:center;
 background-repeat: no-repeat;
 margin: auto;
 }
-#titleheadvlog
+#titleheadvid
 {
 z-index:5;
 height:205px;
@@ -222,12 +222,12 @@ background-image:url('img/linelightdown.png');
 background-position:center;
 background-repeat: repeat;
 }
-#vlog
+#vid
 {
 height:26px;
 width:100%;
 float:left;
-background-color:#291c12;
+/*background-color:#291c12;*/
 }
 #soc
 {
