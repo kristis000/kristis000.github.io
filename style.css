@@ -213,7 +213,7 @@ position:relative;
 #titleheadline-top
 {
 	z-index:4;
-	top: 93px;
+	margin-top: 93px;
 	height: 2px;
 	background-color: white;
 	margin-bottom: 2px;
@@ -233,7 +233,6 @@ position: absolute;
 background-image:url('img/video.png');
 background-position:center;
 background-repeat: no-repeat;
-margin-top: 543px;
 }
 .titleheadsoc
 {
