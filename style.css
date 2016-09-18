@@ -29,7 +29,8 @@ body::-webkit-scrollbar {
 }
  
 body::-webkit-scrollbar-track {
-    background-color: rgb(230,230,230);
+    /*background-color: rgb(230,230,230);*/
+    background-color: white;
 }
  
 body::-webkit-scrollbar-thumb {
@@ -171,10 +172,16 @@ height:20px;
 {
 opacity:0.4;
 }
+#spacer
+{
+	height:30px;
+	float:left;
+	width:100%;
+}
 .topblock
 {
 float:left;
-height:514px;
+height:484px;
 width:100%;
 /*background-color:#291c12;*/
 }
@@ -201,6 +208,15 @@ float:left;
 width:100%;
 background-color:#291c12;
 font-family: 'Roboto', sans-serif;
+}
+.blockvid
+{
+padding-top:110px;
+float:left;
+width:100%;
+background-color:#d8c4b4;
+font-family: 'Roboto', sans-serif;
+position:relative;
 }
 .blockl
 {
@@ -239,7 +255,8 @@ background-repeat: no-repeat;
 }
 .titleheadsoc
 {
-z-index:6;
+position: absolute;
+z-index:10;
 height:205px;
 width:100%;
 background-image:url('img/social.png');
@@ -295,7 +312,7 @@ float:left;
 }
 #soc
 {
-height:26px;
+height:30px;
 width:100%;
 float:left;
 background-color:#d8c4b4;
