@@ -137,7 +137,15 @@ opacity:0.4;
 float:left;
 height:432px;
 width:100%;
-background-color:#291c12;
+/*background-color:#291c12;*/
+}
+.upback
+{
+float:left;
+height:743px;
+width:100%;
+background-image:url("img/upback.png");
+background-repeat: no-repeat;
 }
 #logo
 {
@@ -198,9 +206,10 @@ z-index:5;
 height:205px;
 width:100%;
 float:left;
-background-image:url('img/linelightdown.png');
+background-image:url('img/line-light-down-no-brown.png');
 background-position:center;
 background-repeat: repeat;
+background-color:#291c12
 }
 #titleheadsoc
 {
