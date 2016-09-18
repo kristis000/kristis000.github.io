@@ -29,7 +29,7 @@ body::-webkit-scrollbar {
 }
  
 body::-webkit-scrollbar-track {
-    background-color: rgb(230,230,230); 
+    background-color: rgb(230,230,230);
 }
  
 body::-webkit-scrollbar-thumb {
@@ -70,10 +70,10 @@ background-color:rgba(41,28,18,0);
 -ms-transition: all 1s ease;
 transition: all 1s ease;
 }
-#headertop:hover
+/*#headertop:hover
 {
 background-color:rgba(41,28,18,0.7);
-}
+}*/
 .hbutton
 {
 color: #fff;
