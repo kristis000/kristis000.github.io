@@ -308,6 +308,7 @@ background-repeat: repeat;
 height:30px;
 width:100%;
 float:left;
+position:relative;
 /*background-color:#291c12;*/
 }
 #soc
