@@ -144,8 +144,9 @@ width:100%;
 float:left;
 height:743px;
 width:100%;
-background-image:url("img/upback.png");
+background-image:url("img/upback.jpg");
 background-repeat: no-repeat;
+background-position:center;
 }
 #logo
 {
