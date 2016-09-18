@@ -181,7 +181,7 @@ width:100%;
 .upback
 {
 float:left;
-height:743px;
+height:738px;
 width:100%;
 background-image:url("img/upback.jpg");
 background-repeat: no-repeat;
@@ -217,12 +217,14 @@ position:relative;
 	height: 2px;
 	background-color: white;
 	margin-bottom: 2px;
+	position: relative;
 }
 #titleheadline-bottom
 {
 	z-index:4;
 	background-color: white;
 	height: 8px;
+	position: relative;
 }
 .titleheadvid
 {
