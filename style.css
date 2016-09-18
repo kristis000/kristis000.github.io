@@ -231,8 +231,6 @@ position:relative;
 z-index:10;
 height:205px;
 width:100%;
-top: 0;
-left: 0;
 position: absolute;
 background-image:url('img/video.png');
 background-position:center;
