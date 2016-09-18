@@ -224,13 +224,12 @@ position:relative;
 	z-index:4;
 	background-color: white;
 	height: 8px;
-	margin-bottom:100px;
 	position: relative;
 }
 .titleheadvid
 {
 z-index:10;
-height:100%;
+height:205px;
 width:100%;
 top: 0;
 left: 0;
