@@ -57,6 +57,7 @@
         $(window).scroll(function(){
                 if( $(window).scrollTop() > stickyHeaderTop ) {
                         $('#headertop').css({position: 'fixed', top: '0px'});
+                        $('#headertopline').css({position: 'fixed', top: '80px', display: 'block'});
                         $('#headeralias').css('display', 'block');
                 } else {
                         $('#headertop').css({position: 'static', top: '0px'});
@@ -117,6 +118,7 @@
 						</div> </a>
 					</div>
 				</div>
+				<div id="headertopline"> </div>
 			
 		<div id="headeralias"> </div>
 		
