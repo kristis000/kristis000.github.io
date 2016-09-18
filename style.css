@@ -174,7 +174,7 @@ opacity:0.4;
 .topblock
 {
 float:left;
-height:534px;
+height:514px;
 width:100%;
 /*background-color:#291c12;*/
 }
@@ -204,6 +204,7 @@ font-family: 'Roboto', sans-serif;
 }
 .blockl
 {
+padding-top:110px;
 float:left;
 width:100%;
 background-color:#d8c4b4;
@@ -330,6 +331,7 @@ text-align: center;
 line-height: 380px;
 }
 section {
+margin-top: 110px;
 position: absolute;
 display: none;
 top: 26px;
