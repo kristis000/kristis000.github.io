@@ -24,7 +24,7 @@ z-index: 2;
 width:100%;
 min-width:1020px;
 height:80px;
-background-color:rgba(41,28,18,0.2);
+background-color:rgba(41,28,18,0);
 -webkit-transition: all 1s ease;
 -moz-transition: all 1s ease;
 -o-transition: all 1s ease;
@@ -135,7 +135,7 @@ opacity:0.4;
 .topblock
 {
 float:left;
-height:432px;
+height:428px;
 width:100%;
 /*background-color:#291c12;*/
 }
@@ -150,10 +150,10 @@ background-position:center;
 }
 #logo
 {
-height:432px;
+height:428px;
 width: 460px;
 margin: auto;
-background-image:url('img/tbpssmall.png');
+background-image:url('img/logosmall.png');
 background-position:center;
 }
 .blockd
@@ -233,7 +233,7 @@ background-repeat: repeat;
 }
 #vid
 {
-height:26px;
+height:30px;
 width:100%;
 float:left;
 /*background-color:#291c12;*/
