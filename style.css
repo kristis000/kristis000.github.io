@@ -10,25 +10,25 @@ body
 margin:0;
 padding:0;
 }
+::-webkit-scrollbar {
+    width: 10px;
+}
+ 
+::-webkit-scrollbar-track {
+    color: rgba(220,220,220,0.8; 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    color: rgba(80,80,80,1;  
+}
 #headeralias
 {
 width:100%;
 height:80px;
 float:left;
 display:none;
-}
-#headertopline
-{
-width: 100%;
-height: 5px;
-position: fixed;
-top: 80px;
-background-color: white;
--webkit-transition: all 1s ease;
--moz-transition: all 1s ease;
--o-transition: all 1s ease;
--ms-transition: all 1s ease;
-transition: all 1s ease;
 }
 #headertop
 {
