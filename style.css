@@ -253,6 +253,7 @@ position: absolute;
 background-image:url('img/video.png');
 background-position:center;
 background-repeat: no-repeat;
+margin-top:624px;
 }
 .titleheadsoc
 {
@@ -308,7 +309,6 @@ background-repeat: repeat;
 height:30px;
 width:100%;
 float:left;
-position:relative;
 /*background-color:#291c12;*/
 }
 #soc
