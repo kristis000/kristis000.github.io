@@ -217,6 +217,7 @@ position:relative;
 	height: 2px;
 	background-color: white;
 	margin-bottom: 2px;
+	position: relative;
 }
 .titleheadline-bottom
 {
@@ -224,13 +225,16 @@ position:relative;
 	background-color: white;
 	height: 8px;
 	margin-bottom:100px;
+	position: relative;
 }
 .titleheadvid
 {
-	position: absolute;
-z-index:6;
-height:205px;
+z-index:10;
+height:100%;
 width:100%;
+top: 0;
+left: 0;
+position: absolute;
 background-image:url('img/video.png');
 background-position:center;
 background-repeat: no-repeat;
@@ -258,11 +262,10 @@ margin: auto;
 }
 #titleheadvid
 {
-z-index:5;
 height:205px;
 width:100%;
 float:left;
-background-image:url('img/line-light-down-no-brown.png');
+/*background-image:url('img/line-light-down-no-brown.png');*/
 background-position:center;
 background-repeat: repeat;
 }
