@@ -227,6 +227,7 @@ position:relative;
 }
 .titleheadvid
 {
+	position: absolute;
 z-index:6;
 height:205px;
 width:100%;
