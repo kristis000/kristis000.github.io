@@ -11,18 +11,18 @@ margin:0;
 padding:0;
 }
 
-body::-webkit-scrollbar {
+nav::-webkit-scrollbar {
     width: 10px;
 }
  
-body::-webkit-scrollbar-track {
-    color: rgba(220,220,220,0.8); 
+nav::-webkit-scrollbar-track {
+    background-color: rgba(220,220,220,0.8); 
     border-radius: 10px;
 }
  
-body::-webkit-scrollbar-thumb {
+nav::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    color: rgba(80,80,80,1);  
+    background-color: rgba(80,80,80,1);  
 }
 #headeralias
 {
