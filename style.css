@@ -177,12 +177,14 @@ opacity:0.4;
 	height:30px;
 	float:left;
 	width:100%;
+	position:relative;
 }
 .topblock
 {
 float:left;
 height:484px;
 width:100%;
+position:relative;
 /*background-color:#291c12;*/
 }
 .upback
@@ -255,14 +257,13 @@ background-repeat: no-repeat;
 }
 .titleheadsoc
 {
-position: absolute;
 z-index:10;
 height:205px;
 width:100%;
+position: absolute;
 background-image:url('img/social.png');
 background-position:center;
 background-repeat: no-repeat;
-margin: auto;
 }
 .titleheadabout
 {
@@ -308,6 +309,7 @@ background-repeat: repeat;
 height:30px;
 width:100%;
 float:left;
+position:relative;
 /*background-color:#291c12;*/
 }
 #soc
