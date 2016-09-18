@@ -229,10 +229,11 @@ position:relative;
 z-index:10;
 height:205px;
 width:100%;
+position: absolute;
 background-image:url('img/video.png');
 background-position:center;
 background-repeat: no-repeat;
-margin: 0;
+margin-top: 543px;
 }
 .titleheadsoc
 {
