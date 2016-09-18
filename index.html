@@ -57,10 +57,11 @@
         $(window).scroll(function(){
                 if( $(window).scrollTop() > stickyHeaderTop ) {
                         $('#headertop').css({position: 'fixed', top: '0px'});
-                        $('#headertopline').css({position: 'fixed', top: '80px'});
+                        $('#headertopline').css('display', 'block');
                         $('#headeralias').css('display', 'block');
                 } else {
                         $('#headertop').css({position: 'static', top: '0px'});
+                        $('#headertopline').css('display', 'none');
                         $('#headeralias').css('display', 'none');
                 }
 			});
