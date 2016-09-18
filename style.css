@@ -210,21 +210,19 @@ background-color:#d8c4b4;
 font-family: 'Roboto', sans-serif;
 position:relative;
 }
-.titleheadline-top
+#titleheadline-top
 {
 	z-index:4;
-	margin-top: 93px;
+	top: 93px;
 	height: 2px;
 	background-color: white;
 	margin-bottom: 2px;
-	position: relative;
 }
-.titleheadline-bottom
+#titleheadline-bottom
 {
 	z-index:4;
 	background-color: white;
 	height: 8px;
-	position: relative;
 }
 .titleheadvid
 {
