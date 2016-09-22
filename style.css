@@ -60,7 +60,7 @@ display:none;
 #headertop
 {
 float:left;
-z-index: 2;
+z-index: 999;
 width:100%;
 min-width:1020px;
 height:80px;
