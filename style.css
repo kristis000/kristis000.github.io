@@ -469,6 +469,8 @@ border-radius:8px;
 margin-left:30px;
 border-top: 5px solid #3c3c3c;
 border-top-left-radius:30px;
+border-bottom: 5px solid #3c3c3c;
+border-bottom-left-radius:30px;
 color: #291c12;
 font-size:20px;
 text-align:justify;
