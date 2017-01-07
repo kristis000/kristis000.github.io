@@ -30,7 +30,9 @@ body::-webkit-scrollbar {
  
 body::-webkit-scrollbar-track {
     /*background-color: rgb(230,230,230);*/
-    background-color: white;
+    background-color: rgba(220,220,220,0);
+    float: right;
+    position:absolute;
 }
  
 body::-webkit-scrollbar-thumb {
@@ -203,13 +205,6 @@ margin: auto;
 background-image:url('img/logosmall.png');
 background-position:center;
 }
-.blockd
-{
-float:left;
-width:100%;
-background-color:#291c12;
-font-family: 'Roboto', sans-serif;
-}
 .blockvid
 {
 padding-top:110px;
@@ -219,12 +214,21 @@ background-color:#d8c4b4;
 font-family: 'Roboto', sans-serif;
 position:relative;
 }
-.blockl
+.blocktin
+{
+float:left;
+padding-top: 110px;
+width:100%;
+background-color:#291c12;
+font-family: 'Roboto', sans-serif;
+}
+.blockam
 {
 padding-top:110px;
 float:left;
 width:100%;
 /*background-image:url("img/blockvid.jpg");*/
+background-color:#d8c4b4;
 font-family: 'Roboto', sans-serif;
 position:relative;
 }
@@ -258,6 +262,7 @@ margin-top:648px;
 .titleheadsoc
 {
 z-index:10;
+    margin-top: 614px;
 height:205px;
 width:100%;
 position: absolute;
@@ -270,39 +275,27 @@ background-repeat: no-repeat;
 z-index:6;
 height:205px;
 width:100%;
+margin-top: 840px;
+position: absolute;
 background-image:url('img/apiemane.png');
 background-position:center;
 background-repeat: no-repeat;
-margin: auto;
 }
-#titleheadvid
+#headline-top
 {
-height:205px;
-width:100%;
-float:left;
-/*background-image:url('img/line-light-down-no-brown.png');*/
-background-position:center;
-background-repeat: repeat;
+	z-index:4;
+	margin-top: 700px;
+	height: 2px;
+	background-color: #131313;
+	margin-bottom: 2px;
+	position: relative;
 }
-#titleheadsoc
+#headline-bottom
 {
-z-index:5;
-height:205px;
-width:100%;
-float:left;
-background-image:url('img/linedarkdown.png');
-background-position:center;
-background-repeat: repeat;
-}
-#titleheadabout
-{
-z-index:5;
-height:205px;
-width:100%;
-float:left;
-background-image:url('img/linelightdown.png');
-background-position:center;
-background-repeat: repeat;
+	z-index:4;
+	background-color: #131313;
+	height: 8px;
+	position: relative;
 }
 #vid
 {
@@ -515,29 +508,23 @@ margin: auto;
 width:638px;
 font-family: 'Roboto', sans-serif;
 }
-#bottomdivider
-{
-background:url('img/linedarkdown.png');
-z-index:5;
-height:205px;
-width:100%;
-float:left;
-background-position:center;
-background-repeat: repeat;
-}
 .bottom
 {
 width:100%;
-height:200px;
+height:40px;
 float:left;
+    padding-top: 100px;
 }
 #bottommid
 {
+font-family: 'Quicksand', sans-serif;
 min-width:1000px;
 margin:0 auto;
 width: 60%;
-height:240px;
+height:40px;
 color:white;
+text-align: center;
+font-size: 12px
 }
 #c
 {
